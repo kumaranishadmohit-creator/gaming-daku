@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>GAMING DAKU | Official Gaming Zone</title>
+  <style>
+    :root { --red:#ff2424; --bg:#090909; --panel:#171717; --muted:#bdbdbd; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial, sans-serif; background:var(--bg); color:#fff; }
+    header { position:sticky; top:0; z-index:5; background:#101010ee; border-bottom:1px solid #292929; }
+    .nav { max-width:1100px; margin:auto; padding:15px 20px; display:flex; align-items:center; justify-content:space-between; gap:15px; }
+    .logo { font-size:23px; font-weight:900; letter-spacing:1px; }
+    .logo span { color:var(--red); }
+    nav a { color:#fff; text-decoration:none; margin-left:18px; font-size:14px; }
+    nav a:hover { color:var(--red); }
+    .hero { min-height:420px; display:flex; align-items:center; justify-content:center; text-align:center; padding:65px 20px; background:radial-gradient(ellipse at center, #4b0808 0%, #190606 38%, #090909 75%); }
+    .hero h1 { font-size:clamp(38px,8vw,76px); margin:0 0 12px; font-weight:1000; text-shadow:0 0 24px #ff242477; }
+    .hero h1 span { color:var(--red); }
+    .hero p { color:#ddd; font-size:18px; max-width:620px; line-height:1.5; margin:0 auto 25px; }
+    .btn { display:inline-block; background:var(--red); color:#fff; padding:13px 22px; border-radius:7px; text-decoration:none; font-weight:bold; box-shadow:0 5px 22px #ff242455; }
+    .btn:hover { background:#d90000; }
+    main { max-width:1100px; margin:auto; padding:42px 20px; }
+    .section-title { font-size:27px; margin:0 0 8px; }
+    .section-title span { color:var(--red); }
+    .sub { color:var(--muted); margin:0 0 24px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+    .card { background:var(--panel); border:1px solid #292929; border-radius:12px; overflow:hidden; transition:.2s; }
+    .card:hover { transform:translateY(-4px); border-color:var(--red); }
+    .thumb { height:145px; display:flex; align-items:center; justify-content:center; text-align:center; padding:15px; background:linear-gradient(135deg,#390707,#171717 65%); color:#fff; font-size:22px; font-weight:900; }
+    .card-body { padding:16px; }
+    .card h3 { margin:0 0 8px; font-size:18px; }
+    .card p { color:var(--muted); font-size:14px; line-height:1.45; min-height:40px; }
+    .card a { color:#ff5555; text-decoration:none; font-weight:bold; font-size:14px; }
+    .about { margin-top:42px; padding:25px; background:var(--panel); border-left:4px solid var(--red); border-radius:8px; }
+    .about p { color:#ccc; line-height:1.6; }
+    footer { border-top:1px solid #292929; text-align:center; padding:25px 15px; color:#aaa; font-size:13px; }
+    @media(max-width:600px) { .nav { flex-direction:column; } nav a { margin:0 8px; } .hero { min-height:360px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">GAMING <span>DAKU</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <h1>GAMING <span>DAKU</span></h1>
+    <p>Welcome to the Gaming Daku Zone! Yahan dekho exciting gameplay, challenges aur gaming videos.</p>
+    <a class="btn" href="https://www.youtube.com/@Mohitkumargamer123" target="_blank" rel="noopener">▶ SUBSCRIBE ON YOUTUBE</a>
+  </div>
+</section>
+
+<main>
+  <section id="videos">
+    <h2 class="section-title">LATEST <span>GAMING VIDEOS</span></h2>
+    <p class="sub">Apne latest videos ke links yahan add karein.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="thumb">🚇 SUBWAY SURFERS</div>
+        <div class="card-body">
+          <h3>Subway Surfers</h3>
+          <p>New updates, exciting runs aur coin challenges.</p>
+          <a href="https://www.youtube.com/@Mohitkumargamer123" target="_blank" rel="noopener">Watch on YouTube →</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb">🏍️ INDIAN BIKE 3D</div>
+        <div class="card-body">
+          <h3>Indian Bike Driving 3D</h3>
+          <p>Bike stunts, fun challenges aur gameplay.</p>
+          <a href="https://www.youtube.com/@Mohitkumargamer123" target="_blank" rel="noopener">Watch on YouTube →</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb">🔥 MORE GAMEPLAY</div>
+        <div class="card-body">
+          <h3>More Gaming Videos</h3>
+          <p>Gaming Daku ke aur videos channel par dekhein.</p>
+          <a href="https://www.youtube.com/@Mohitkumargamer123" target="_blank" rel="noopener">Watch on YouTube →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">ABOUT <span>GAMING DAKU</span></h2>
+    <p>Gaming Daku ek gaming channel hai. Yahan gameplay, gaming challenges aur naye gaming videos share kiye jaate hain. Channel ko subscribe karein aur naye videos dekhte rahein!</p>
+    <a class="btn" href="https://www.youtube.com/@Mohitkumargamer123" target="_blank" rel="noopener">Visit YouTube Channel</a>
+  </section>
+</main>
+
+<footer>© 2026 GAMING DAKU · Made for gamers</footer>
+</body>
+</html>
